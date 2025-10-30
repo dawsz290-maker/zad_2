@@ -59,4 +59,15 @@ Dodawanie pliku/ów do indeksu
 
 ![](zdj4.png)
 
+1. $touch.exe nowy.md – utworzenie pustego pliku tekstowego
+2. $git add nowy.md – dodanie nowo stworzonego pliku do indeksu
+3. $git status – wyświetlenie statusu lokalnego repozytorium
+
+Widać (zielony kolor), że git śledzi wprowadzone zmiany.
+
+## Git - zapis pliku do repozytorium lokalnego
+
+- git commit -m "komunikat" – w komunikacie podaje się krótki opis zmian wprowadzonych do repozytorium
+
+
 
