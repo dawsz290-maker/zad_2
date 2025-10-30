@@ -45,10 +45,10 @@ Należy w konsoli wywołać następującą sekwencję komend (zakładając, że 
 3. **$ git init**
 4. **$ git status**
 
--Pierwsza komenda tworzy katalog o zadanej nazwie
--Druga komenda powoduje, że przechodzimy do właśnie stworzonego katalogu
--Trzecia komenda inicjuje puste repozytorium
--Czwarta komenda wyświetla informacje o stanie repozytorium
+* Pierwsza komenda tworzy katalog o zadanej nazwie
+* Druga komenda powoduje, że przechodzimy do właśnie stworzonego katalogu
+* Trzecia komenda inicjuje puste repozytorium
+* Czwarta komenda wyświetla informacje o stanie repozytorium
 ![](zdj3.png)
 Jak widać na powyższym rysunku po stworzeniu pustego repozytorium pracujemy w głównej gałęzi
 **master** i brak jest zarejestrowanych jakichkolwiek „migawek” (commits)
@@ -57,5 +57,6 @@ Dodawanie pliku/ów do indeksu
 - $ git add file - dodanie pliku do indeksu
 - $ git rm --cached file - usunięcie pliku z indeksu
 
+![](zdj4.png)
 
 
