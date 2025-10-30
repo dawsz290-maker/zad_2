@@ -135,7 +135,11 @@ należy wykonać w zależności od kontekstu w jakim chcemy użyć nasz projekt.
 
 ![](zdj10.png)
 
+Ostatni rysunek pokazuje przesłanie lokalnego repozytorium na serwer gitlab.com
 
+W tym przypadku nie musiano podawać loginu i hasła ponieważ pomiędzy maszyną lokalną a
+serwerem są uzgodnione pary kluczy: prywatny i publiczny
 
+![](zdj11.png)
 
 
