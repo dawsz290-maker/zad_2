@@ -45,10 +45,11 @@ Należy w konsoli wywołać następującą sekwencję komend (zakładając, że 
 3. `$ git init`
 4. `$ git status`
 
-- Pierwsza komenda tworzy katalog o zadanej nazwie
-- Druga komenda powoduje, że przechodzimy do właśnie stworzonego katalogu
-- Trzecia komenda inicjuje puste repozytorium
-- Czwarta komenda wyświetla informacje o stanie repozytorium
+Pierwsza komenda tworzy katalog o zadanej nazwie
+Druga komenda powoduje, że przechodzimy do właśnie stworzonego katalogu
+Trzecia komenda inicjuje puste repozytorium
+Czwarta komenda wyświetla informacje o stanie repozytorium
+![](zdj3.png)
 
 
 
