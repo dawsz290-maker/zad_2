@@ -21,7 +21,7 @@ Użytkownik pracuje w katalogu roboczym, gdzie modyfikuje swoje pliki. Gdy uzna,
 Uwaga: Do pracy z systemem git należy zainstalować oprogramowanie ze strony:
 https://git-scm.com/downloads
 
-Po zainstalowaniu będzie dostępna powłoka z wyglądu podobna do tej z poniższego rysunku. Jest to aplikacja Git Bash w której wydajemy polecenia z linii komend.
+Po zainstalowaniu będzie dostępna powłoka z wyglądu podobna do tej z poniższego rysunku. Jest to aplikacja **Git Bash** w której wydajemy polecenia z linii komend.
 
 ![](zdj1.png)
 
@@ -40,17 +40,22 @@ W przypadku piszącego tą instrukcję wynik wprowadzonych komend ma postać:
 ## Git – tworzenie pustego archiwum lokalnego
 Należy w konsoli wywołać następującą sekwencję komend (zakładając, że repozytorium będzie nosiło nazwę repo1):
 
-1. `$ mkdir repo1`
-2. `$ cd repo1`
-3. `$ git init`
-4. `$ git status`
+1. **$ mkdir repo1**
+2. **$ cd repo1**
+3. **$ git init**
+4. **$ git status**
 
-Pierwsza komenda tworzy katalog o zadanej nazwie
-Druga komenda powoduje, że przechodzimy do właśnie stworzonego katalogu
-Trzecia komenda inicjuje puste repozytorium
-Czwarta komenda wyświetla informacje o stanie repozytorium
+-Pierwsza komenda tworzy katalog o zadanej nazwie
+-Druga komenda powoduje, że przechodzimy do właśnie stworzonego katalogu
+-Trzecia komenda inicjuje puste repozytorium
+-Czwarta komenda wyświetla informacje o stanie repozytorium
 ![](zdj3.png)
+Jak widać na powyższym rysunku po stworzeniu pustego repozytorium pracujemy w głównej gałęzi
+**master** i brak jest zarejestrowanych jakichkolwiek „migawek” (commits)
 
+Dodawanie pliku/ów do indeksu
+- $ git add file - dodanie pliku do indeksu
+- $ git rm --cached file - usunięcie pliku z indeksu
 
 
 
