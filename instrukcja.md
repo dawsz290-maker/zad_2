@@ -65,9 +65,12 @@ Dodawanie pliku/ów do indeksu
 
 Widać (zielony kolor), że git śledzi wprowadzone zmiany.
 
-## Git - zapis pliku do repozytorium lokalnego
+Git - zapis pliku do repozytorium lokalnego
 
 - git commit -m "komunikat" – w komunikacie podaje się krótki opis zmian wprowadzonych do repozytorium
+
+!()[zdj5.png]
+
 
 
 
