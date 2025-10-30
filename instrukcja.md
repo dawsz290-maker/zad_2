@@ -22,3 +22,5 @@ Uwaga: Do pracy z systemem git należy zainstalować oprogramowanie ze strony:
 https://git-scm.com/downloads
 
 Po zainstalowaniu będzie dostępna powłoka z wyglądu podobna do tej z poniższego rysunku. Jest to aplikacja Git Bash w której wydajemy polecenia z linii komend.
+
+!(zdj1.png)
