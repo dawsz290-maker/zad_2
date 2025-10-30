@@ -79,6 +79,17 @@ Używając tekstowego edytora nano (można użyć własnego ulubionego edytora) 
 Jak widać na kolejnym rysunku w repozytorium zostały umieszczone trzy "migawki" stanu repozytorium wszystkie umieszczone w gałęzi głównej "master".
 
 ![](zdj6.png)
+![](zdj7.png)
+**Git – praca z rozgałęzieniami**
+
+Bardzo często zachodzi taka sytuacja, że nie chcemy wprowadzać zmian w głównej gałęzi a tylko wykonać jakieś prace testowe i później zdecydować czy dołączyć je do głównej gałęzi lub nie. Do tego służą rozgałęzienia i operacja ich łączenia.
+
+- $git branch name – tworzenie nowego rozgałęzienia
+- $git checkout name - przełączenie się do innej gałęzi
+- $git branch -D name - usunięcie rozgałęzienia (trzeba być od niego odłączonym)
+- $git merge nazwa_galezi – złączenie gałęzi "nazwa_galezi" z gałęzią do której jesteśmy podłączeni
+
+
 
 
 
