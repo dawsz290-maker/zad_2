@@ -40,10 +40,10 @@ W przypadku piszącego tą instrukcję wynik wprowadzonych komend ma postać:
 ## Git – tworzenie pustego archiwum lokalnego
 Należy w konsoli wywołać następującą sekwencję komend (zakładając, że repozytorium będzie nosiło nazwę repo1):
 
-1. **$ mkdir repo1**
-2. **$ cd repo1**
-3. **$ git init**
-4. **$ git status**
+1. $ mkdir repo1
+2. $ cd repo1
+3. $ git init
+4. $ git status
 
 * Pierwsza komenda tworzy katalog o zadanej nazwie
 * Druga komenda powoduje, że przechodzimy do właśnie stworzonego katalogu
@@ -141,6 +141,7 @@ W tym przypadku nie musiano podawać loginu i hasła ponieważ pomiędzy maszyn�
 serwerem są uzgodnione pary kluczy: prywatny i publiczny
 
 ![](zdj11.png)
+
 
 
 
