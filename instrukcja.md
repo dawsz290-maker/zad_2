@@ -85,12 +85,12 @@ Jak widać na kolejnym rysunku w repozytorium zostały umieszczone trzy "migawki
 
 Bardzo często zachodzi taka sytuacja, że nie chcemy wprowadzać zmian w głównej gałęzi a tylko wykonać jakieś prace testowe i później zdecydować czy dołączyć je do głównej gałęzi lub nie. Do tego służą rozgałęzienia i operacja ich łączenia.
 
-![](zdj8.png)
 
 - $git branch name – tworzenie nowego rozgałęzienia
 - $git checkout name - przełączenie się do innej gałęzi
 - $git branch -D name - usunięcie rozgałęzienia (trzeba być od niego odłączonym)
 - $git merge nazwa_galezi – złączenie gałęzi "nazwa_galezi" z gałęzią do której jesteśmy podłączeni
+![](zdj8.png)
 Każde lokalne repozytorium możemy umieścić na dedykowanym serwerze protokołu git (możemy także spakować katalog z repozytorium i taką kopię przesłać zainteresowanemu np. e-mailem). Jeżeli chcemy realizować wspólne projekte - nad którymi pracuje wiele osób - to niezbędnym jest wykorzystanie serwera.
 
 Mamy do dyspozycji np:
@@ -141,6 +141,7 @@ W tym przypadku nie musiano podawać loginu i hasła ponieważ pomiędzy maszyn�
 serwerem są uzgodnione pary kluczy: prywatny i publiczny
 
 ![](zdj11.png)
+
 
 
 
