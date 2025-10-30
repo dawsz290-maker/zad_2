@@ -130,6 +130,10 @@ Na potrzeby tej instrukcji stworzono projekt o nazwie testowy na koncie gitlab a
 ![](zdj9.png)
 
 
+Po wciśnięciu przycisku **Create project** zostanie wygenerowany ekran z listą instrukcji które
+należy wykonać w zależności od kontekstu w jakim chcemy użyć nasz projekt.
+
+![](zdj10.png)
 
 
 
