@@ -38,5 +38,10 @@ Uwaga: należy wprowadzić własne dane osobowe i własny adres e-mail
 W przypadku piszącego tą instrukcję wynik wprowadzonych komend ma postać:
 ![](zdj2.png)
 ## Git – tworzenie pustego archiwum lokalnego
+Należy w konsoli wywołać następującą sekwencję komend (zakładając, że repozytorium będzie nosiło nazwę repo1):
+1. `$ mkdir repo1`
+2. `$ cd repo1`
+3. `$ git init`
+4. `$ git status`
 
 
