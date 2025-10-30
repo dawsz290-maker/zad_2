@@ -23,4 +23,14 @@ https://git-scm.com/downloads
 
 Po zainstalowaniu będzie dostępna powłoka z wyglądu podobna do tej z poniższego rysunku. Jest to aplikacja Git Bash w której wydajemy polecenia z linii komend.
 
-!(zdj1.png)
+![](zdj1.png)
+
+Pierwszym krokiem po instalacji git'a i uruchomieniu aplikacji Git Bash jest wydanie dwóch poleceń:
+git config --global user.name "Student Wspanialy"
+git config --global user.email "wspanialy@pw.edu.pl"
+
+W ten sposób informujemy system git kto będzie autorem zmian wprowadzanych do repozytorium.
+
+Uwaga: należy wprowadzić własne dane osobowe i własny adres e-mail
+
+W przypadku piszącego tą instrukcję wynik wprowadzonych komend ma postać:
