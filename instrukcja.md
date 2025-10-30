@@ -37,5 +37,6 @@ Uwaga: należy wprowadzić własne dane osobowe i własny adres e-mail
 
 W przypadku piszącego tą instrukcję wynik wprowadzonych komend ma postać:
 ![](zdj2.png)
+## Git – tworzenie pustego archiwum lokalnego
 
 
