@@ -127,6 +127,7 @@ wykonać klonowanie zdalnego repozytorium komendą:
 
 Na potrzeby tej instrukcji stworzono projekt o nazwie testowy na koncie gitlab autora instrukcji
 
+![](zdj9.png)
 
 
 
