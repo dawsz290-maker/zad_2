@@ -27,9 +27,9 @@ Po zainstalowaniu będzie dostępna powłoka z wyglądu podobna do tej z poniżs
 
 Pierwszym krokiem po instalacji git'a i uruchomieniu aplikacji Git Bash jest wydanie dwóch poleceń:
 
-$git config --global user.name "Student Wspanialy"
+**$git config --global user.name "Student Wspanialy"**
 
-$git config --global user.email "wspanialy@pw.edu.pl"
+**$git config --global user.email "wspanialy@pw.edu.pl"**
 
 W ten sposób informujemy system git kto będzie autorem zmian wprowadzanych do repozytorium.
 
@@ -141,5 +141,6 @@ W tym przypadku nie musiano podawać loginu i hasła ponieważ pomiędzy maszyn�
 serwerem są uzgodnione pary kluczy: prywatny i publiczny
 
 ![](zdj11.png)
+
 
 
