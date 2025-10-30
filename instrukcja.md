@@ -11,3 +11,14 @@ Jest to oprogramowanie służące do śledzenia zmian (głównie w dokumentach t
 - Tryb pracy off-line - każdy pracuje na własnej kopii repozytorium, a następnie zmiany mogą być wymieniane między lokalnymi repozytoriami jak również serwerem
 
 ## Idea pracy
+
+Na powyższym rysunku symbolicznie przedstawiono zasadę pracy z gitem. Większy okrąg symbolizuje repozytorium lokalne (po lewej) w którym pracuje użytkownik. Mniejszy okrąg (po prawej) to kopia repozytorium na wybranym serwerze (np. github.com lub gitlab.com). Czerwone strzałki to komendy git'a, które powodują przenoszenie plików i/lub katalogów pomiędzy poszczególnymi elementami repozytorium lub pomiędzy maszyną lokalną a serwerem.
+
+Git rozróżnia trzy typy plików w repozytorium lokalnym: nadzorowane, pomijane i nienadzorowane. Z punktu widzenia systemu plików repozytorium to zwykły katalog w którym zainicjalizowany został specjalny podkatalog o nazwie .git, w którym przetrzymywane są wszystkie informacje o repozytorium.
+
+Użytkownik pracuje w katalogu roboczym, gdzie modyfikuje swoje pliki. Gdy uzna, że postęp prac wymaga zapisania zmian przenosi je do staging area (komenda add). Gdy suma zmian stanowi jakąś spójną całość (np. dodanie nowego rozdziału pracy, dodanie nowej funkcjonalności itd.) tworzy się nową "migawkę" zapisywaną w lokalnym repozytorium (komenda commit). Co jakiś czas można przenieść lokalne zmiany w repozytorium na serwer (komenda push).
+
+Uwaga: Do pracy z systemem git należy zainstalować oprogramowanie ze strony:
+https://git-scm.com/downloads
+
+Po zainstalowaniu będzie dostępna powłoka z wyglądu podobna do tej z poniższego rysunku. Jest to aplikacja Git Bash w której wydajemy polecenia z linii komend.
