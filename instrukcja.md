@@ -80,14 +80,52 @@ Jak widać na kolejnym rysunku w repozytorium zostały umieszczone trzy "migawki
 
 ![](zdj6.png)
 ![](zdj7.png)
+
 **Git – praca z rozgałęzieniami**
 
 Bardzo często zachodzi taka sytuacja, że nie chcemy wprowadzać zmian w głównej gałęzi a tylko wykonać jakieś prace testowe i później zdecydować czy dołączyć je do głównej gałęzi lub nie. Do tego służą rozgałęzienia i operacja ich łączenia.
+
+![](zdj8.png)
 
 - $git branch name – tworzenie nowego rozgałęzienia
 - $git checkout name - przełączenie się do innej gałęzi
 - $git branch -D name - usunięcie rozgałęzienia (trzeba być od niego odłączonym)
 - $git merge nazwa_galezi – złączenie gałęzi "nazwa_galezi" z gałęzią do której jesteśmy podłączeni
+Każde lokalne repozytorium możemy umieścić na dedykowanym serwerze protokołu git (możemy także spakować katalog z repozytorium i taką kopię przesłać zainteresowanemu np. e-mailem). Jeżeli chcemy realizować wspólne projekte - nad którymi pracuje wiele osób - to niezbędnym jest wykorzystanie serwera.
+
+Mamy do dyspozycji np:
+
+- GitHub - https://github.com
+- GitLab - https://gitlab.com
+- GitLab Wydzialowy - https://gitlab-stud.elka.pw.edu.pl (do niego możecie nie mieć Państwo nadanych praw dostępu)
+
+Sugeruje się wykorzystanie serwera gitlab z uwagi na łatwość obsługi.
+
+W tym celu należy wykonać następujące kroki:
+
+1. Zarejestrować się w systemie
+2. Stworzyć nowy projekt w którym będziemy chcieli umieścić nasze lokalne repozytorium
+3. W lokalnym repozytorium dodać informacje na jaki serwer mają być wysyłane dane
+realizuje to komenda:
+
+**$git remote add origin git@gitlab.com:user/projekt1.git**
+(jako user nazwa Państwa konta na serwerze)
+
+I teraz można „wypchnąć” lokalne repozytorium na serwer komendą:
+
+**$git push origin master**
+
+gdy istnieją dodatkowe rozgałęzienia w repozytorium, to każde musi być „wypchnięte” oddzielną
+komendą
+
+**$git push origin nazwaGalezi**
+
+Gdy chcemy pobrać repozytorium z serwera na jakąś inną lokalną maszynę to wtedy należy
+wykonać klonowanie zdalnego repozytorium komendą:
+
+**$git clone git@gitlab.com:user/projekt1.git**
+
+Na potrzeby tej instrukcji stworzono projekt o nazwie testowy na koncie gitlab autora instrukcji
 
 
 
