@@ -58,7 +58,7 @@ Dodawanie pliku/ów do indeksu
 - $ git rm --cached file - usunięcie pliku z indeksu
 
 ![](zdj4.png)
-
+Powyższy rysunek prezentuje sekwencję komend:
 1. $touch.exe nowy.md – utworzenie pustego pliku tekstowego
 2. $git add nowy.md – dodanie nowo stworzonego pliku do indeksu
 3. $git status – wyświetlenie statusu lokalnego repozytorium
@@ -69,7 +69,7 @@ Git - zapis pliku do repozytorium lokalnego
 
 - git commit -m "komunikat" – w komunikacie podaje się krótki opis zmian wprowadzonych do repozytorium
 
-![](zdj.png)
+![](zdj5.png)
 Polecenie git log wyświetla listę zapisanych "migawek". Każda migawka identyfikowana jest sekwencją liczb szesnastkowych (żółte cyfry) – komentarzem jaki podajemy podczas wywoływania polecenia git commit.
 
 **Git – dodanie kolejnych plików, modyfikacja i stworzenie kolejnych "migawek"**
@@ -77,6 +77,9 @@ Polecenie git log wyświetla listę zapisanych "migawek". Każda migawka identyf
 Używając tekstowego edytora nano (można użyć własnego ulubionego edytora) – zmodyfikowano zawartość pliku nowy.md – co natychmiast zauważył system kontroli wersji (modified nowy.md). Następnie stworzono kolejny pusty plik (następny.md) co również system zasygnalizował jako: (Untracked files – następny.md). Teraz zostaną wykonane dwa niezależne commity i zostanie wyświetlony kolejny log stanu repozytorium.
 
 Jak widać na kolejnym rysunku w repozytorium zostały umieszczone trzy "migawki" stanu repozytorium wszystkie umieszczone w gałęzi głównej "master".
+
+![](zdj6.png)
+
 
 
 
