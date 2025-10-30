@@ -36,4 +36,6 @@ W ten sposób informujemy system git kto będzie autorem zmian wprowadzanych do 
 Uwaga: należy wprowadzić własne dane osobowe i własny adres e-mail
 
 W przypadku piszącego tą instrukcję wynik wprowadzonych komend ma postać:
+![](zdj2.png)
+
 
